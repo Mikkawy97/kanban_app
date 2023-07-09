@@ -1,0 +1,79 @@
+.genral_container{
+  width: 100%;
+  height: 100vh;
+
+}
+.app_wrapper{
+  width: 100%;
+  height: 100%;
+
+
+}
+.header{
+  width: 100%;
+  height: 100%;
+  padding: 25px 15px 25px 15px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: transparent;
+
+}
+.header .title{
+
+
+font-size: 24px;
+font-family: 'main font';
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.header .add_task_btn{
+
+  border-style: none;
+  border-radius: 24px;
+  padding: 14px 24px ;
+  background-color: #635FC7;
+  color: white;
+  font-size: 15px;
+font-family: 'main font';
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-right: 10px;
+}
+.header .add_task_btn:hover{
+
+  background-color: #1f1e4b !important;
+  transition-delay: 0.3ms !important;
+}
+.logo_container{
+  width: 210px;
+  height: 25px;
+
+  margin-left: 25px;
+
+  
+  }
+.logo_container img{
+      max-width: 100%;
+      max-height: 100%;
+      
+      }
+      .sidebar_off_toggle{
+    
+        position: absolute;
+        bottom: 25px;
+        left: 0px;
+       
+        background-color: #635FC7;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 10px 20px;
+        border-style: none;
+        z-index: 1;
+    
+        
+      }
